@@ -1,14 +1,14 @@
 import "./main.css";
 import React from "react";
 import ReactDOM from "react-dom";
-import configureStore from "./store/configureStore";
+import configureStore from "./store/store";
 import { Provider } from "react-redux";
 import { browserHistory, Router, Route } from "react-router";
 import { syncHistoryWithStore } from "react-router-redux";
-import Layout from "./Containers/Layout";
-import Foods from "./Containers/Foods";
-import Food from "./Containers/Food";
-import Basket from "./Containers/Basket";
+import Layout from "./components/Layout";
+import Foods from "./components/Foods";
+import Food from "./components/Food";
+import Basket from "./components/Basket";
 
 const store = configureStore();
 const history = syncHistoryWithStore(browserHistory, store);

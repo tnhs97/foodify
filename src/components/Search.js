@@ -31,20 +31,20 @@ class Search extends React.Component {
     return (
       <div className="well blosd">
         <h3 className="lead">Quick Search</h3>
+
         <div className="input-group">
           <form onSubmit={this.handleSubmit}>
             <input
               type="text"
+              style={{ width: '80%' }}
               className="form-control"
               value={this.state.searchValue}
               onChange={this.onSearchInputChange}
             />
-          </form>
-          <span className="input-group-btn">
-            <button className="btn btn-default">
+            <button type="submit" className="btn btn-default">
               <span className="glyphicon glyphicon-search" />
             </button>
-          </span>
+          </form>
         </div>
       </div>
     );

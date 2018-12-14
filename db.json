@@ -1,0 +1,70 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "name": "Caramel Phin Freeze",
+      "description": "Caramel Phin Freeze \n Với các sản phẩm Freeze, trong quá trình vận chuyển có thể ảnh hưởng đến chất lượng lớp kem trên bề mặt",
+      "price": 49000,
+      "image": "https://images.foody.vn/res/g1/7939/s750x750/2018925115454-caramel-phin-freeze.jpg"
+    },
+    {
+      "id": "2",
+      "categoryId": "1",
+      "name": "Trà sen vàng",
+      "description": "Caramel Phin Freeze \n Với các sản phẩm Freeze, trong quá trình vận chuyển có thể ảnh hưởng đến chất lượng lớp kem trên bề mặt",
+      "price": 39000,
+      "image": "https://images.foody.vn/res/g1/7939/s750x750/201738104248-tra-sen-vang.jpg"
+    },
+    {
+      "id": "3",
+      "categoryId": "1",
+      "name": "Cookies & cream",
+      "description": "Với các sản phẩm Freeze, trong quá trình vận chuyển có thể ảnh hưởng đến chất lượng lớp kem trên bề mặt",
+      "price": 49000,
+      "image": "https://images.foody.vn/res/g1/7939/s750x750/2018925115329-cookies-cream.jpg"
+    },
+    {
+      "id": "4",
+      "categoryId": "2",
+      "name": "Cơm chiên cá mặn",
+      "description": "Caramel Phin Freeze \n Với các sản phẩm Freeze, trong quá trình vận chuyển có thể ảnh hưởng đến chất lượng lớp kem trên bề mặt",
+      "price": 100000,
+      "image": "https://images.foody.vn/res/g11/106321/s750x750/201853091631-com-chien-ca%cc%81-ma%cc%a3n.jpg"
+    },
+    {
+      "id": "5",
+      "categoryId": "2",
+      "name": "Gỏi bắp chuối trộn tôm thịt",
+      "description": "Caramel Phin Freeze \n Với các sản phẩm Freeze, trong quá trình vận chuyển có thể ảnh hưởng đến chất lượng lớp kem trên bề mặt",
+      "price": 99000,
+      "image": "https://images.foody.vn/res/g11/106321/s750x750/20185309210-goi-bap-chuoi-tron-tom-thit.jpg"
+    },
+    {
+      "id": "6",
+      "categoryId": "2",
+      "name": "Mì xào hải sản",
+      "description": "Caramel Phin Freeze \n Với các sản phẩm Freeze, trong quá trình vận chuyển có thể ảnh hưởng đến chất lượng lớp kem trên bề mặt",
+      "price": 100000,
+      "image": "https://images.foody.vn/res/g11/106321/s750x750/20185309246-mi%cc%80.jpg"
+    },
+    {
+      "id": "7",
+      "categoryId": "2",
+      "name": "Rau càng cua trộn thịt bò",
+      "description": "Caramel Phin Freeze \n Với các sản phẩm Freeze, trong quá trình vận chuyển có thể ảnh hưởng đến chất lượng lớp kem trên bề mặt",
+      "price": 70000,
+      "image": "https://images.foody.vn/res/g11/106321/s750x750/201853091931-rau-ca%cc%80ng-cua.jpg"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Drinks"
+    },
+    {
+      "id": "2",
+      "name": "Foods"
+    }
+  ]
+}
