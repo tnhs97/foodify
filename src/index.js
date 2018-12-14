@@ -9,11 +9,16 @@ import Layout from "./components/Layout";
 import Foods from "./components/Foods";
 import Food from "./components/Food";
 import Basket from "./components/Basket";
+import LoginPage from './components/LoginPage';
+import RegisterPage from './components/RegisterPage';
+import { configureFakeBackend } from './helpers';
+// const store = configureStore();
 
-const store = configureStore();
-const history = syncHistoryWithStore(browserHistory, store);
+configureFakeBackend();
+
+const history = syncHistoryWithStore(browserHistory, configureStore);
 const jsx = (
-  <Provider store={store}>
+  <Provider store={configureStore}>
     <Router history={history}>
       <Route component={Layout}>
         <Route path="/" component={Foods} />
@@ -21,6 +26,8 @@ const jsx = (
       </Route>
       <Route path="/Foods/:id" component={Food} />
       <Route path="/basket" component={Basket} />
+      <Route path="/login" component={LoginPage} />
+      <Route path="/register" component={RegisterPage} />
     </Router>
   </Provider>
 );
