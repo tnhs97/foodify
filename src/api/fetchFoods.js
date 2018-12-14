@@ -1,7 +1,5 @@
-import foods from "./mockFoods";
 import R from "ramda";
 import request from "superagent";
-import mockCategories from "./mockCategories";
 
 export const fetchFoods = async () => {
   return new Promise(resolve => {
